@@ -1,79 +1,36 @@
-📊 Telecom Churn Prediction
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Getting Started
 
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-An end-to-end Machine Learning project that predicts telecom customer churn using customer demographic, account, and service usage data. The project helps telecom companies identify customers likely to leave and supports proactive retention strategies through data-driven insights.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-🚀 Project Highlights
+## Learn More
 
-✅ End-to-end ML pipeline implementation
-✅ Data preprocessing and feature engineering
-✅ Exploratory Data Analysis (EDA) with visual insights
-✅ Multiple classification models comparison
-✅ Model evaluation using performance metrics
-✅ Business-focused churn insights
+To learn more about Next.js, take a look at the following resources:
 
-📌 Problem Statement
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Customer churn is a significant issue in the telecom industry. Losing customers directly impacts revenue and growth. The objective of this project is to build a predictive model that identifies customers who are likely to churn so companies can take preventive actions.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-🧠 Technologies Used
+## Deploy on Vercel
 
-Python
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Pandas
-
-NumPy
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-📂 Dataset Information
-
-The dataset includes:
-
-Customer demographics
-
-Account information
-
-Service subscriptions
-
-Billing details
-
-Customer tenure
-
-Churn label (Target Variable)
-
-⚙️ Project Workflow
-Data Collection → Data Cleaning → EDA → Feature Engineering
-→ Model Training → Model Evaluation → Prediction
-
-📈 Machine Learning Models Used
-Model	Purpose
-Logistic Regression	Baseline model
-Decision Tree	Rule-based classification
-Random Forest	Ensemble learning
-Support Vector Machine	High-dimensional classification
-📊 Model Evaluation Metrics
-
-Accuracy
-
-Precision
-
-Recall
-
-F1 Score
-
-Confusion Matrix
-
-✅ Results
-
-Random Forest Classifier achieved the best performance with balanced precision and recall, making it suitable for churn prediction where false negatives must be minimized.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
